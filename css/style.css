@@ -4,7 +4,7 @@
     --bg: linear-gradient(#7F00FF, #E100FF);
     --title: 'Poppins', sans-serif;
     --text: 'Roboto', sans-serif;
-    --padding-size: 30px 60px;
+    --padding-size: 30px 40px;
     --color1: #fdfefe;
     --color2: #34495e;
     --btn-submit: #6C63FF;
@@ -197,6 +197,16 @@ body{
     font-size: 1.5rem;
     line-height: 1.5;
     color: var(--color1);
+}
+
+.alerta{
+    width: 100%;
+    padding: 10px;
+    color: var(--color1);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    background: var(--btn-reset);
 }
 
 @media screen and (max-width: 900px){
