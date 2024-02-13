@@ -33,14 +33,6 @@
 
                 <div class="input-container">
                     <div class="input-content">
-                        <i class="bi bi-telephone-fill icon"></i>
-                        <input type="tel" name="phone" id="phone" class="input" placeholder=" " required>
-                        <label class="label">Ingresa tu telefono:</label>
-                    </div>
-                </div>
-
-                <div class="input-container">
-                    <div class="input-content">
                         <i class="bi bi-envelope-at-fill icon"></i>
                         <input type="email" name="email" id="email" class="input" placeholder=" " required>
                         <label class="label">Ingresa tu email:</label>
@@ -65,7 +57,7 @@
                 </div>
 
                 <div class="buttons">
-                    <button type="submit" id="btn-submit" class="btn btn-submit">
+                    <button type="submit" id="btn-submit" class="btn btn-submit" disabled>
                         <i class="bi bi-arrow-right icon icon-btn"></i>
                         Enviar
                     </button>
@@ -74,6 +66,19 @@
                         <i class="bi bi-trash3-fill icon icon-btn"></i>
                         Eliminar
                     </button>
+                </div>
+
+                <div class="spinner-container">
+                    <div class="spinner">
+                        <div class="sk-chase">
+                            <div class="sk-chase-dot"></div>
+                            <div class="sk-chase-dot"></div>
+                            <div class="sk-chase-dot"></div>
+                            <div class="sk-chase-dot"></div>
+                            <div class="sk-chase-dot"></div>
+                            <div class="sk-chase-dot"></div>
+                        </div>
+                    </div>
                 </div>
             </form>
         </section>
